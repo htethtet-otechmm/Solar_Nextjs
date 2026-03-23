@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-const GoogleIcon = () => (
-=======
 export const GoogleIcon = () => (
->>>>>>> Stashed changes
   <svg
     width="60"
     height="60"
