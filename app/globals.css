@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9faf8;
+  --foreground: #f9faf8;
 }
 
 @theme inline {
@@ -12,15 +12,45 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background-color: var(--background);
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --red-color: #c20000;
+  --orange-color: #ff3b3b;
+  --text-color: #6d6d6d;
+  --title-font: "Orbitron", sans-serif;
+  --text-font: "Poppins", sans-serif;
 }
 
 body {
-  background: #ffffff;
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background-color);
+}
+
+h1 {
+  font-family: var(--title-font);
+  color: var(--black-color);
+  font-size: 4rem;
+  font-weight: bold;
+
+}
+
+p {
+  font-family: var(--text-font);
+  color: var(--black-color);
+}
+
+button {
+  font-family: var(--title-font);
+  font-size: 1rem;
+  background: var(--red-color);
+  color: var(--white-color);
+  padding: 1rem 1.563rem 1rem 1.563rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #ff3b3b;
 }
