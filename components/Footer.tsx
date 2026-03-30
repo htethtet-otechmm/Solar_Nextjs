@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import styles from "@/styles/footer.module.css";
 import { FaCopyright, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
+import { MdOutlineCopyright } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -50,7 +52,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.copy}>
-      <p> 2026 PROMETEX Myanmar. Designs By O-Technique International Myanmar</p>
+      <p><MdOutlineCopyright/>2026 PROMETEX Myanmar. Designs By O-Technique International Myanmar</p>
       </div>
 
     </footer>

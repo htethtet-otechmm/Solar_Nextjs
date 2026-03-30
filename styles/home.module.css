@@ -42,8 +42,8 @@
   }
   
   .sliderContent h1,
-  .sliderContent p {
-    color: #ffffff;
+  .sliderContent p{
+    color: var(--white-color);
   }
   
   .imageButtonPrev,

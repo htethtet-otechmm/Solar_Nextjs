@@ -16,22 +16,20 @@
   /* SEARCH */
   .searchBox {
     flex: 1 1 300px;
-    position: relative;
-    max-width: 300px;
     min-width: 220px;
-    left: 10%;
+    position: relative;
 
   }
   
   .searchBox input {
     width: 100%;
-    padding: 12px 45px 12px 15px;
+    padding: 12px 40px 12px 15px; /* space for icon */
     border-radius: 10px;
     border: none;
     background: #c7c2c2be;
     outline: none;
     font-size: 14px;
-  }
+    }
   
   .searchIcon {
     position: absolute;
@@ -39,45 +37,53 @@
     top: 50%;
     transform: translateY(-50%);
     color: #333;
-  }
+    pointer-events: none;
+    }
   
   /* RIGHT ACTIONS */
   .tasks{
+    display: flex;
     align-items: center;
     margin-left: auto;
     gap: 10px;
   }
   .actions {
-    display: flex;
-    gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 10px 20px;                
     align-items: center;
   }
   
-  .actionItem {
+    .actionItem,
+    .cart,
+    .dropdown {
     display: flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
-    font-size: 14px;
-  }
+    white-space: nowrap;
+    }
 
-  .dropdown {
+  /* .dropdown {
     position: relative;
     display: flex;
     align-items: center;
     gap: 6px;
     cursor: pointer;
     font-size: 14px;
-  }
+  } */
   
   .arrow {
     font-size: 10px;
+  }
+  .Eicon {
+    font-size: 23px;
   }
   .dropdownMenu {
     position: absolute;
     top: 35px;
     right: 0;
-    background: white;
+    background: var(--white-color);
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     padding: 10px 0;
@@ -92,30 +98,54 @@
   }
   
   .dropdownMenu p:hover {
-    background: #f3f3f3;
+    background: #f3f3f3c4;
   }
   
-  /* CART */
+  .actionItem:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
   .cart {
+    grid-column: 2;
+    grid-row: 1;
     position: relative;
-    font-size: 18px;
+    display: grid;
     cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
   }
+
+  /* row 2 */
+.actionItem:nth-child(3) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.dropdown:nth-child(4) {
+  grid-area: 2 / 2;
+  justify-content: center;
+}
+
+.dropdown:nth-child(5) {
+grid-area: 3/2;
+justify-content: center;
+}
   
-  .cartDot {
-    position: absolute;
-    top: -4px;
-    right: -6px;
-    width: 10px;
-    height: 10px;
-    background: red;
-    border-radius: 50%;
-  }
-  
+.cartDot {
+  position: absolute;
+  top: 4px;
+  right: 25px;
+  width: 8px;
+  height: 8px;
+
+  background-color: red;
+  border-radius: 50%;
+}  
   .navLinks {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     padding: 15px 0;
     list-style: none;
     font-family: var(--title-font);
