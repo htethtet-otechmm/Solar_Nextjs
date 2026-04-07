@@ -1,0 +1,117 @@
+body {
+  background: #ffffff;
+}
+
+.authContainer {
+  width: 100%;
+  margin: auto;
+  padding: 1rem 5rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/* .inputField {
+  margin: 0 15%;
+} */
+
+.inputBox {
+  background: #efeaea;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 1em;
+  width: 100%;
+}
+
+.inputBox::placeholder {
+  color: #868686;
+}
+
+.authLayout {
+  display: flex;
+}
+
+.signinForm {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: #ffffff;
+  padding: 3rem 5rem;
+}
+
+.authField {
+  width: 70%;
+  background: #c20000;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.secondaryAuthField {
+  width: 70%;
+  background: #c20000;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.authTitle {
+  font-size: 3rem;
+  color: #c20000;
+  font-weight: 600;
+  text-align: center;
+  margin: 2rem;
+}
+
+.signupTitle {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.authLogo {
+  margin: 3rem auto;
+}
+
+.authBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.signinBtn {
+  background: #c20000;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.secondaryAuthBtn {
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #ffffff;
+}
+
+.forgotPassword {
+  font-size: 1.25rem;
+  color: #000000;
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.authText {
+  margin: 3.5rem;
+  color: #ffffff;
+}
+
+.signinBox {
+  width: 80%;
+}
