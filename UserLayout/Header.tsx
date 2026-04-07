@@ -19,12 +19,9 @@ function Header() {
 
           <div className={styles.logo}>
             <Image
-              src="/img/logo.png"
+              src="/img/Logo.png"
               alt="Prometex Logo"
-              width={450}
-              height={50}
-              priority
-            />
+              width={450} height={50} priority/>
           </div>
           
 

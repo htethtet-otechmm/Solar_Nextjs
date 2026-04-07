@@ -6,7 +6,7 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import Header from "@/components/Header";
+import Header from "@/UserLayout/Header";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Home() {
