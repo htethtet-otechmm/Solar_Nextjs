@@ -44,7 +44,7 @@ export default function Footer() {
 
       <div className={styles.footerLogo}>
         <Image
-          src="/img/logo.png"
+          src="/img/Logo.png"
           alt="Prometex"
           width={900}
           height={120}
