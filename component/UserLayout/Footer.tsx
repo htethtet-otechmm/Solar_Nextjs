@@ -7,9 +7,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-
       <div className={styles.footerTop}>
-
         <div className={styles.column}>
           <h4>Customer Care</h4>
           <p>Contact Us</p>
@@ -39,22 +37,18 @@ export default function Footer() {
             <FaYoutube />
           </div>
         </div>
-
       </div>
 
       <div className={styles.footerLogo}>
-        <Image
-          src="/img/Logo.png"
-          alt="Prometex"
-          width={900}
-          height={120}
-        />
+        <Image src="/img/Logo.png" alt="Prometex" width={900} height={120} />
       </div>
 
       <div className={styles.copy}>
-      <p><MdOutlineCopyright/>2026 PROMETEX Myanmar. Designs By O-Technique International Myanmar</p>
+        <p>
+          <MdOutlineCopyright />
+          2026 PROMETEX Myanmar. Designs By O-Technique International Myanmar
+        </p>
       </div>
-
     </footer>
   );
 }

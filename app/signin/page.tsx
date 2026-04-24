@@ -12,7 +12,7 @@ export default function UserSignin() {
         <div className={styles.signinForm}>
           <div className={styles.signinBox}>
             <Image
-              src="/img/prometex.png"
+              src="/img/Logo.png"
               width={450}
               height={60}
               alt="Prometex"
