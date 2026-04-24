@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/footer.module.css";
 import { FaCopyright, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 import { MdOutlineCopyright } from "react-icons/md";
+import logo from "../../public/img/Logo.png";
 
 export default function Footer() {
   return (
@@ -40,7 +41,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.footerLogo}>
-        <Image src="/img/Logo.png" alt="Prometex" width={900} height={120} />
+        <Image src={logo} alt="Prometex" width={900} height={120} />
       </div>
 
       <div className={styles.copy}>

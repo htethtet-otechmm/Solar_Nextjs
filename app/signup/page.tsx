@@ -6,6 +6,7 @@ import styles from "../../styles/auth.module.css";
 import { MailIcon } from "@/component/Icon/MailIcon";
 import { LockIcon } from "@/component/Icon/LockIcon";
 import PersonIcon from "@/component/Icon/PersonIcon";
+import logo from "../../public/img/Logo.png";
 export default function UserSignin() {
   return (
     <div className={styles.authContainer}>
@@ -26,7 +27,7 @@ export default function UserSignin() {
         <div className={styles.signinForm}>
           <div className={styles.signinBox}>
             <Image
-              src="/img/Logo.png"
+              src={logo}
               width={450}
               height={60}
               alt="Prometex"
