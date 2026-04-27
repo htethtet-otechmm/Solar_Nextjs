@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Topbar from "@/components/Topbar";
 import { Orbitron, Poppins } from "next/font/google";
-import Footer from "@/components/Footer";
-
 
 const orbitronSans = Orbitron({
   variable: "--font-orbitron-sans",
@@ -41,10 +38,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${orbitronSans.variable} ${poppins.variable} antialiased`}
-        suppressHydrationWarning={true}>
-          <Topbar />
+        suppressHydrationWarning={true}
+      >
         {children}
-        <Footer/>
       </body>
     </html>
   );
