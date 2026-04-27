@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "../../styles/home.module.css";
+import itemImg from "../../public/img/solar.png";
 
 export default function BestSellingItems() {
   return (
@@ -9,7 +10,7 @@ export default function BestSellingItems() {
       <div style={{ display: "flex", gap: "1.25rem" }}>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"
@@ -26,7 +27,7 @@ export default function BestSellingItems() {
         </div>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"
@@ -43,7 +44,7 @@ export default function BestSellingItems() {
         </div>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"
