@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../../styles/home.module.css";
 import { Button } from "../UI/Button";
 import { ArrowRightLongIcon } from "../Icon/ArrowRightLongIcon";
+import itemImg from "../../public/img/solar.png";
 
 export default function LatestItems() {
   return (
@@ -11,7 +12,7 @@ export default function LatestItems() {
       <div style={{ display: "flex", gap: "1.25rem" }}>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"
@@ -41,7 +42,7 @@ export default function LatestItems() {
         </div>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"
@@ -71,7 +72,7 @@ export default function LatestItems() {
         </div>
         <div>
           <Image
-            src="/img/solar.png"
+            src={itemImg}
             width={260}
             height={500}
             alt="Solar"

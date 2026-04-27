@@ -45,6 +45,7 @@ export default function HeroSlider() {
                   alt="Slider Image 1"
                   width={800}
                   style={{ width: "100%" }}
+                  className={styles.sliderImg}
                   priority
                 />
               </div>
@@ -56,6 +57,7 @@ export default function HeroSlider() {
                   alt="Slider Image 1"
                   width={800}
                   style={{ width: "100%" }}
+                  className={styles.sliderImg}
                   priority
                 />
               </div>
@@ -67,6 +69,7 @@ export default function HeroSlider() {
                   alt="Slider Image 1"
                   width={800}
                   style={{ width: "100%" }}
+                  className={styles.sliderImg}
                   priority
                 />
               </div>
