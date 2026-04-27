@@ -18,12 +18,14 @@ import { MdOutlinePinDrop, MdTrolley } from "react-icons/md";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { BsMoonStars } from "react-icons/bs";
 import logo from "../../public/img/Logo.png";
+import Topbar from "./Topbar";
 
 function Header() {
   const [showLang, setShowLang] = useState(false);
   const [showTheme, setShowTheme] = useState(false);
   return (
     <header className={styles.header}>
+      <Topbar />
       <nav className={styles.nav}>
         <div className={styles.taskbar}>
           <div className={styles.logo}>
