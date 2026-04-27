@@ -8,6 +8,8 @@ import styles from "../../styles/home.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Button } from "../UI/Button";
 import { ArrowRightLongIcon } from "../Icon/ArrowRightLongIcon";
+import Image from "next/image";
+import slider from "../../public/img/slider-1.png";
 
 export default function HeroSlider() {
   return (
@@ -37,25 +39,40 @@ export default function HeroSlider() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img
-                src="/img/slider-1.png"
-                alt="Slider"
-                className={styles.sliderImg}
-              />
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Image
+                  src={slider}
+                  alt="Slider Image 1"
+                  width={800}
+                  style={{ width: "100%" }}
+                  className={styles.sliderImg}
+                  priority
+                />
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="/img/slider-1.png"
-                alt="Slider"
-                className={styles.sliderImg}
-              />
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Image
+                  src={slider}
+                  alt="Slider Image 1"
+                  width={800}
+                  style={{ width: "100%" }}
+                  className={styles.sliderImg}
+                  priority
+                />
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img
-                src="/img/slider-1.png"
-                alt="Slider"
-                className={styles.sliderImg}
-              />
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Image
+                  src={slider}
+                  alt="Slider Image 1"
+                  width={800}
+                  style={{ width: "100%" }}
+                  className={styles.sliderImg}
+                  priority
+                />
+              </div>
             </SwiperSlide>
 
             <div className={styles.imageButtonPrev}>
