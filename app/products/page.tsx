@@ -1,4 +1,4 @@
-import SolarPanelList from "@/component/SolarPanelList/SolarPanelList";
+import SolarPanelList from "@/components/SolarPanelList/SolarPanelList";
 
 export default function ProductsPage() {
   return (

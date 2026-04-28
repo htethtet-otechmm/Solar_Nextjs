@@ -1,6 +1,6 @@
-import BestSellingItems from "@/component/Home/BestSellingItems";
-import HeroSlider from "@/component/Home/HeroSlider";
-import LatestItems from "@/component/Home/LatestItems";
+import BestSellingItems from "@/components/Home/BestSellingItems";
+import HeroSlider from "@/components/Home/HeroSlider";
+import LatestItems from "@/components/Home/LatestItems";
 
 export default function Home() {
   return (
