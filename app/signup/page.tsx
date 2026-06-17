@@ -1,11 +1,11 @@
 "use client";
-import { FacebookIcon } from "@/component/Icon/FacebookIcon";
-import { GoogleIcon } from "@/component/Icon/GoogleIcon";
+import { FacebookIcon } from "@/components/Icon/FacebookIcon";
+import { GoogleIcon } from "@/components/Icon/GoogleIcon";
 import Image from "next/image";
 import styles from "../../styles/auth.module.css";
-import { MailIcon } from "@/component/Icon/MailIcon";
-import { LockIcon } from "@/component/Icon/LockIcon";
-import PersonIcon from "@/component/Icon/PersonIcon";
+import { MailIcon } from "@/components/Icon/MailIcon";
+import { LockIcon } from "@/components/Icon/LockIcon";
+import PersonIcon from "@/components/Icon/PersonIcon";
 import logo from "../../public/img/Logo.png";
 export default function UserSignin() {
   return (
